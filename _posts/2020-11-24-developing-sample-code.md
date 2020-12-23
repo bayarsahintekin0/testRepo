@@ -30,19 +30,7 @@ description: 15
 <p><strong>4.Asset Select</strong></p>
 <pre><div id="copy-button13" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  fun selectData(bundle: Bundle) :ArrayList<AssetModel>{
         val result = hwAssetManager.assetSelect(context,bundle)
-        if (result.resultCode == HwAssetManager.SUCCESS) {
-            Toast.makeText(context,"Your asset successfully selected: " + result.resultInfo[0], Toast.LENGTH_SHORT).show()
-            val gson = Gson()
-            val list: ArrayList<AssetModel> = arrayListOf()
-            for (i in result.resultInfo) {
-                list.add(gson.fromJson(i, AssetModel::class.java))
-            }
-            return list
-        }else {
-            onFailure(result,"Asset Select")
-        }    
-      return arrayListOf()
-    }
+        
 </code></pre>
 
 <p><strong>5.Asset Delete</strong></p>
