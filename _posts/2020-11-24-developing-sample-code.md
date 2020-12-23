@@ -47,8 +47,8 @@ description: 15
             return list
         }else 
             onFailure(result,"Asset Select")
-        
-        return arrayListOf()
+      
+   return arrayListOf()
     }
 <span class="pln">
 </span></code></pre>
