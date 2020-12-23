@@ -13,7 +13,7 @@ description: 2
 <ol type="1">
 	<li>Asset Insert : Fill required fiels and click the “INSERT” Button.</li>
 </ol>
-<img style="width: 220.00px" src="https://github.com/bayarsahintekin0/testRepo/blob/gh-pages/assets/i.jpg" onclick="imageclick(src)"> 
+<img style="width: 220.00px" src="https://raw.githubusercontent.com/bayarsahintekin0/testRepo/gh-pages/assets/i.jpg" onclick="imageclick(src)"> 
 
 <p><strong>2. Asset Update</strong></p>
 <ol type="1">
@@ -21,13 +21,14 @@ description: 2
   <li>Asset Update : Select an asset from list .</li>
 	<li>Asset Update : Fill required fiels and click the “Update” Button.</li>
 </ol>
-<img style="width: 220.00px" src="https://github.com/bayarsahintekin0/testRepo/blob/gh-pages/assets/u1.jpg" onclick="imageclick(src)"> <img style="width: 220.00px" src="https://github.com/bayarsahintekin0/testRepo/blob/gh-pages/assets/u2.jpg" onclick="imageclick(src)"> 
+<img style="width: 220.00px" src="https://raw.githubusercontent.com/bayarsahintekin0/testRepo/gh-pages/assets/u1.jpg" onclick="imageclick(src)"> 
+<img style="width: 220.00px" src="https://raw.githubusercontent.com/bayarsahintekin0/testRepo/gh-pages/assets/u2.jpg" onclick="imageclick(src)"> 
 
 <p><strong>2. Asset Select</strong></p>
 <ol type="1">
 	<li>Asset Select :Assets will shown as a list</li>
 </ol>
-<img style="width: 220.00px" src="https://github.com/bayarsahintekin0/testRepo/blob/gh-pages/assets/s.jpg" onclick="imageclick(src)"> 
+<img style="width: 220.00px" src="https://raw.githubusercontent.com/bayarsahintekin0/testRepo/gh-pages/assets/s.jpg" onclick="imageclick(src)"> 
 
 <p><strong>2. Asset Delete</strong></p>
 <ol type="1">
