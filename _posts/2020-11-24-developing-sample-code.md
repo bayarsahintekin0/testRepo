@@ -9,30 +9,6 @@ description: 15
 </span></code></pre>
 
 
-
-
-<p><strong>2.Asset Insert</strong></p>
-<pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  fun insertData(bundle: Bundle){
-        val result  = hwAssetManager.assetInsert(context, bundle)
-        if (result.resultCode == HwAssetManager.SUCCESS) {
-            Toast.makeText(context,"Your asset successfully inserted: " + result.resultInfo[0], Toast.LENGTH_SHORT).show()
-        }else
-            onFailure(result,"Asset Insert")
-    }
-<span class="pln">
-</span></code></pre>
-
-<p><strong>3.Asset Update</strong></p>
-<pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  fun updateData (bundle: Bundle) {
-        val result  = hwAssetManager.assetInsert(context, bundle)
-        if (result.resultCode == HwAssetManager.SUCCESS) {
-            Toast.makeText(context,"Your asset successfully updated: " + result.resultInfo[0], Toast.LENGTH_SHORT).show()
-        }else
-            onFailure(result,"Asset Update")
-    }
-<span class="pln">
-</span></code></pre>
-
 <p><strong>4.Asset Select</strong></p>
 <pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>   fun selectData(bundle: Bundle) :ArrayList<AssetModel>{
         val result = hwAssetManager.assetSelect(context,bundle)
@@ -63,6 +39,32 @@ description: 15
     }
 <span class="pln">
 </span></code></pre>
+
+
+
+<p><strong>2.Asset Insert</strong></p>
+<pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  fun insertData(bundle: Bundle){
+        val result  = hwAssetManager.assetInsert(context, bundle)
+        if (result.resultCode == HwAssetManager.SUCCESS) {
+            Toast.makeText(context,"Your asset successfully inserted: " + result.resultInfo[0], Toast.LENGTH_SHORT).show()
+        }else
+            onFailure(result,"Asset Insert")
+    }
+<span class="pln">
+</span></code></pre>
+
+<p><strong>3.Asset Update</strong></p>
+<pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  fun updateData (bundle: Bundle) {
+        val result  = hwAssetManager.assetInsert(context, bundle)
+        if (result.resultCode == HwAssetManager.SUCCESS) {
+            Toast.makeText(context,"Your asset successfully updated: " + result.resultInfo[0], Toast.LENGTH_SHORT).show()
+        }else
+            onFailure(result,"Asset Update")
+    }
+<span class="pln">
+</span></code></pre>
+
+
 
 <p><strong>6. Handling Error Codes</strong></p>
 <pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  
