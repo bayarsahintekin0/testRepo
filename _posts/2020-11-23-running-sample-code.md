@@ -8,8 +8,32 @@ description: 2
 
 <ol type="1">
 	<li>Open the app upon installing it to your device</li>
-	<li>Fill the Edittext and enter an Url, click the “Play” Button.</li>
-	<li>Wait for video to be displayed.</li>
 </ol>
-<img style="width: 220.00px" src="https://raw.githubusercontent.com/bekiryavuzkoc/testRepo/gh-pages/assets/videokitone.jpg" onclick="imageclick(src)">             <img style="width: 217.00px" src="https://raw.githubusercontent.com/bekiryavuzkoc/testRepo/gh-pages/assets/playvideoswithvideokittwo.PNG" onclick="imageclick(src)">
+
+<ol type="1">
+	<li>Asset Insert : Fill required fiels and click the “INSERT” Button.</li>
+</ol>
+<img style="width: 220.00px" src="https://raw.githubusercontent.com/bekiryavuzkoc/testRepo/gh-pages/assets/i.jpg" onclick="imageclick(src)"> 
+
+<ol type="1">
+  <li>Asset Update :Assets shown as a list</li>
+  <li>Asset Update : Select an asset from list .</li>
+	<li>Asset Update : Fill required fiels and click the “Update” Button.</li>
+</ol>
+<img style="width: 220.00px" src="https://raw.githubusercontent.com/bekiryavuzkoc/testRepo/gh-pages/assets/u1.jpg" onclick="imageclick(src)"> 
+<img style="width: 220.00px" src="https://raw.githubusercontent.com/bekiryavuzkoc/testRepo/gh-pages/assets/u2.jpg" onclick="imageclick(src)"> 
+
+<ol type="1">
+	<li>Asset Select :Assets will shown as a list</li>
+</ol>
+<img style="width: 220.00px" src="https://raw.githubusercontent.com/bekiryavuzkoc/testRepo/gh-pages/assets/s.jpg" onclick="imageclick(src)"> 
+
+<ol type="1">
+	<li>Asset Delete :Assets shown as a list</li>
+  <li>Asset Delete :Select an asset and delete it</li>
+</ol>
+<img style="width: 220.00px" src="https://raw.githubusercontent.com/bekiryavuzkoc/testRepo/gh-pages/assets/d1.jpg" onclick="imageclick(src)"> 
+<img style="width: 220.00px" src="https://raw.githubusercontent.com/bekiryavuzkoc/testRepo/gh-pages/assets/d2.jpg" onclick="imageclick(src)"> 
+
+
 
