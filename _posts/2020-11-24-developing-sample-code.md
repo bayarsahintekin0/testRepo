@@ -5,8 +5,7 @@ description: 15
 
 <p><strong>1.Create an instance from HwAssetManager. We will use this instance for all asset operations</strong></p>
 <pre><div id="copy-button10" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  private val hwAssetManager = HwAssetManager.getInstance()   
-<span class="pln">
-</span></code></pre>
+</code></pre>
 
 <p><strong>2.Asset Insert</strong></p>
 <pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  fun insertData(bundle: Bundle){
@@ -16,8 +15,7 @@ description: 15
         }else
             onFailure(result,"Asset Insert")
     }
-<span class="pln">
-</span></code></pre>
+</code></pre>
 
 <p><strong>3.Asset Update</strong></p>
 <pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  fun updateData (bundle: Bundle) {
@@ -27,8 +25,7 @@ description: 15
         }else
             onFailure(result,"Asset Update")
     }
-<span class="pln">
-</span></code></pre>
+</code></pre>
 
 <p><strong>4.Asset Select</strong></p>
 <pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  fun selectData(bundle: Bundle) :ArrayList<AssetModel>{
@@ -46,8 +43,7 @@ description: 15
         }    
       return arrayListOf()
     }
-<span class="pln">
-</span></code></pre>
+</code></pre>
 
 
 <p><strong>5.Asset Delete</strong></p>
@@ -59,8 +55,8 @@ description: 15
              onFailure(result, "Asset Delete")
         }
     }
-<span class="pln">
-</span></code></pre>
+</code></pre>
+
 
 <p><strong>6. Handling Error Codes</strong></p>
 <pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  private fun onFailure(result : HwAssetManager.AssetResult,operationTitle :String) {
@@ -91,7 +87,6 @@ description: 15
             }
         }
     }
-<span class="pln">
-</span></code></pre>
+</code></pre>
 
 
