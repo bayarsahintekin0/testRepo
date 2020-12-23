@@ -34,7 +34,9 @@ description: 2
 	<li>Asset Delete :Assets shown as a list</li>
   <li>Asset Delete :Select an asset and delete it</li>
 </ol>
-<img style="width: 220.00px" src="https://github.com/bayarsahintekin0/testRepo/blob/gh-pages/assets/d1.jpg" onclick="imageclick(src)"> <img style="width: 220.00px" src="https://github.com/bayarsahintekin0/testRepo/blob/gh-pages/assets/d2.jpg" onclick="imageclick(src)"> 
+<img style="width: 220.00px" src="https://raw.githubusercontent.com/bayarsahintekin0/testRepo/gh-pages/assets/d1.jpg" onclick="imageclick(src)"> 
+<img style="width: 220.00px" src="https://raw.githubusercontent.com/bayarsahintekin0/testRepo/gh-pages/assets/d2.jpg" onclick="imageclick(src)"> 
+
 
 
 
