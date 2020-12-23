@@ -3,7 +3,7 @@ title: Set up the Project
 description: 5
 ---
 
-<p>You can download the codelab project from: <a href="https://github.com/huaweicodelabs/VideoKit/tree/master/PlayVideosWithVideoKit" target="_blank">https://github.com/huaweicodelabs/VideoKit/tree/master/PlayVideosWithVideoKit</a></p>
+<p>You can download the codelab project from: <a href="https://github.com/bayarsahintekin0/BasicSecurityManagement" target="_blank">https://github.com/bayarsahintekin0/BasicSecurityManagement</a></p>
 
 <h2><strong>Creating a Project</strong></h2>
 <p><strong>Step 1</strong>: Start Android Studio.</p>
