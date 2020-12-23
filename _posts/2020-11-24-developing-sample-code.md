@@ -28,19 +28,6 @@ description: 15
 <span class="pln">
 </span></code></pre>
 
-<p><strong>5.Asset Delete</strong></p>
-<pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>   fun deleteData(bundle: Bundle) {
-        val result = hwAssetManager.assetDelete(context,bundle)
-         if (result.resultCode == HwAssetManager.SUCCESS){
-             Toast.makeText(context,"Your asset successfully deleted: " + result.resultInfo[0], Toast.LENGTH_SHORT).show()
-        }else {
-             onFailure(result, "Asset Delete")
-        }
-    }
-<span class="pln">
-</span></code></pre>
-
-
 
 <p><strong>2.Asset Insert</strong></p>
 <pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  fun insertData(bundle: Bundle){
@@ -95,6 +82,19 @@ private fun onFailure(result : HwAssetManager.AssetResult,operationTitle :String
                 Log.e(operationTitle,"System error" +" errorCode: " + HwAssetManager.ERROR_CODE_SYSTEM_ERROR )
                 Toast.makeText(context,"System Error ", Toast.LENGTH_SHORT).show()
             }
+        }
+    }
+<span class="pln">
+</span></code></pre>
+
+
+<p><strong>5.Asset Delete</strong></p>
+<pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>   fun deleteData(bundle: Bundle) {
+        val result = hwAssetManager.assetDelete(context,bundle)
+         if (result.resultCode == HwAssetManager.SUCCESS){
+             Toast.makeText(context,"Your asset successfully deleted: " + result.resultInfo[0], Toast.LENGTH_SHORT).show()
+        }else {
+             onFailure(result, "Asset Delete")
         }
     }
 <span class="pln">
