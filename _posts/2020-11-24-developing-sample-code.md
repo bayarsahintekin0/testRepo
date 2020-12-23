@@ -31,7 +31,7 @@ description: 15
 </span></code></pre>
 
 <p><strong>4.Asset Select</strong></p>
-<pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>   fun selectData(bundle: Bundle) :ArrayList<AssetModel>{
+<pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  fun selectData(bundle: Bundle) :ArrayList<AssetModel>{
         val result = hwAssetManager.assetSelect(context,bundle)
         if (result.resultCode == HwAssetManager.SUCCESS) {
             Toast.makeText(context,"Your asset successfully selected: " + result.resultInfo[0], Toast.LENGTH_SHORT).show()
@@ -51,7 +51,7 @@ description: 15
 
 
 <p><strong>5.Asset Delete</strong></p>
-<pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>   fun deleteData(bundle: Bundle) {
+<pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  fun deleteData(bundle: Bundle) {
         val result = hwAssetManager.assetDelete(context,bundle)
          if (result.resultCode == HwAssetManager.SUCCESS){
              Toast.makeText(context,"Your asset successfully deleted: " + result.resultInfo[0], Toast.LENGTH_SHORT).show()
@@ -62,11 +62,8 @@ description: 15
 <span class="pln">
 </span></code></pre>
 
-
 <p><strong>6. Handling Error Codes</strong></p>
-<pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  
-
-private fun onFailure(result : HwAssetManager.AssetResult,operationTitle :String) {
+<pre><div id="copy-button11" class="copy-btn" title="Copy" onclick="copyCode(this.id)"></div><code>  private fun onFailure(result : HwAssetManager.AssetResult,operationTitle :String) {
         when(result.resultCode) {
             HwAssetManager.ERROR_CODE_INVALID_ARGUMENT -> {
                 Log.e(operationTitle,"Invalid Arguments"+" errorCode: " + HwAssetManager.ERROR_CODE_INVALID_ARGUMENT )
@@ -96,6 +93,5 @@ private fun onFailure(result : HwAssetManager.AssetResult,operationTitle :String
     }
 <span class="pln">
 </span></code></pre>
-
 
 
