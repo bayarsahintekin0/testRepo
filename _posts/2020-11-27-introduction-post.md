@@ -4,14 +4,6 @@ description: 1
 ---
 
 
-  
-<div class="codelab-title">
-<div class="token">Huawei Basic Security Management</div></div>
-<div class="about-card">
-<h2 class="title">About this codelab</h2>
-
-</huawei-codelab-about>
-
 <p>
 	HUAWEI Basic Storage Management is basically provide us to save private data in a very secure place(TEE) on Huawei Phones.
 </p>
