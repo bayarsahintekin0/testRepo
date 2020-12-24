@@ -3,7 +3,7 @@ title: "Introduction"
 description: 1
 ---
 
-<huawei-codelab-about codelab-title="Huawei Basic Security Management" last-updated="2020-22-12T13:16:52-07:00" authors="Huawei Codelab Team">
+
   
 <div class="codelab-title">
 <div class="token">Huawei Basic Security Management</div></div>
